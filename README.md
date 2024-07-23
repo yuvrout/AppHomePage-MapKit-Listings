@@ -17,22 +17,19 @@ This repository contains the code for creating a mock HomePage a mobile applicat
 - **Coredata**: For local data storage and management.
 - **Combine**: For handling asynchronous events.
 
-Setup
-Clone the repository:
+## Setup
 
-bash
-Copy code
+### Clone the repository:
+```bash
 git clone https://github.com/yourusername/AppHomePage-MapKit-Listings.git
-Navigate to the project directory:
 
-bash
-Copy code
+Navigate to the project directory:
 cd AppHomePage-MapKit-Listings
+
 Install dependencies:
 Ensure you have Xcode installed and up to date. Open the project in Xcode and install any necessary dependencies through CocoaPods if applicable.
 
 Configure Firebase:
-
 Go to the Firebase Console.
 Create a new project or use an existing one.
 Download the GoogleService-Info.plist file and add it to your Xcode project.
@@ -48,6 +45,10 @@ UI Tests: Verify the design matches the Figma specifications and the UI is respo
 Error Handling Tests: Verify that the application can handle potential errors gracefully, such as network issues or incorrect data inputs.
 Features Tested
 Map Integration: Confirms that the MapKit is correctly integrated and displaying as expected.
+Data Parsing Accuracy: Ensures that the parsing logic correctly extracts and displays listing information.
+Filter Logic: Verifies that the script correctly identifies and includes only the specified listings within the radius.
+Features Not Tested
+Advanced User Interactions: Testing the full spectrum of user interactions and edge cases in the swipe-up view.
 Data Parsing Accuracy: Ensures that the parsing logic correctly extracts and displays listing information.
 Filter Logic: Verifies that the script correctly identifies and includes only the specified listings within the radius.
 Features Not Tested
