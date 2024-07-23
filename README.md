@@ -1,5 +1,7 @@
 # AppHomePage-MapKit-Listings
-This repository contains the code for creating a mock HomePage a mobile application, inspired by the design and functionality of Airbnb. The HomePage features Apple Maps in the background, with listings displayed at the bottom, providing a seamless and intuitive user experience.
+This repository contains the code for creating a mock HomePage mobile application inspired by the design and functionality of Airbnb. The HomePage features Apple Maps in the background, with listings displayed at the bottom, providing a seamless and intuitive user experience.
+
+<img src="https://github.gatech.edu/storage/user/65879/files/8f5dbb04-29e3-4eae-9001-9d77920370f8" alt="Screenshot" height="300"> 
 
 # Features
 - **Mapkit Integration**: Apple Maps is utilized in the background to provide a seamless map view.
