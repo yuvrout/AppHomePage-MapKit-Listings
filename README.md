@@ -20,36 +20,36 @@ This repository contains the code for creating a mock HomePage a mobile applicat
 ## Setup
 
 ### Clone the repository:
-```bash
+
 git clone https://github.com/yourusername/AppHomePage-MapKit-Listings.git
 
-Navigate to the project directory:
+### Navigate to the project directory:
 cd AppHomePage-MapKit-Listings
 
-Install dependencies:
+### Install dependencies:
 Ensure you have Xcode installed and up to date. Open the project in Xcode and install any necessary dependencies through CocoaPods if applicable.
 
-Configure Firebase:
-Go to the Firebase Console.
-Create a new project or use an existing one.
-Download the GoogleService-Info.plist file and add it to your Xcode project.
-Ensure the Firebase SDKs are integrated by following the Firebase setup instructions.
-Usage
-To run the project, open the .xcodeproj file in Xcode and build and run the project on a simulator or a physical device. Make sure you have configured Firebase and other necessary dependencies properly.
+### Configure Firebase:
+- Go to the Firebase Console.
+- Create a new project or use an existing one.
+- Download the GoogleService-Info.plist file and add it to your Xcode project.
+- Ensure the Firebase SDKs are integrated by following the Firebase setup instructions.
 
-Testing
-Strategy
-Unit Tests: Test each function for correct behavior, particularly focusing on accurate map integration, data parsing, and radius adjustments.
-Integration Tests: Ensure that the components work together seamlessly to produce the expected user experience.
-UI Tests: Verify the design matches the Figma specifications and the UI is responsive and interactive.
-Error Handling Tests: Verify that the application can handle potential errors gracefully, such as network issues or incorrect data inputs.
-Features Tested
-Map Integration: Confirms that the MapKit is correctly integrated and displaying as expected.
-Data Parsing Accuracy: Ensures that the parsing logic correctly extracts and displays listing information.
-Filter Logic: Verifies that the script correctly identifies and includes only the specified listings within the radius.
-Features Not Tested
-Advanced User Interactions: Testing the full spectrum of user interactions and edge cases in the swipe-up view.
-Data Parsing Accuracy: Ensures that the parsing logic correctly extracts and displays listing information.
-Filter Logic: Verifies that the script correctly identifies and includes only the specified listings within the radius.
-Features Not Tested
-Advanced User Interactions: Testing the full spectrum of user interactions and edge cases in the swipe-up view.
+### Usage
+- To run the project, open the .xcodeproj file in Xcode and build and run the project on a simulator or a physical device. Make sure you have configured Firebase and other necessary dependencies properly.
+
+## Testing
+
+### Strategy
+- **Unit Tests**: Test each function for correct behavior, particularly focusing on accurate map integration, data parsing, and radius adjustments.
+- **Integration Tests**: Ensure that the components work together seamlessly to produce the expected user experience.
+- **UI Tests**: Verify the design matches the Figma specifications and the UI is responsive and interactive.
+- **Error Handling Tests**: Verify that the application can handle potential errors gracefully, such as network issues or incorrect data inputs.
+
+### Features Tested
+- **Map Integration**: Confirms that the MapKit is correctly integrated and displaying as expected.
+- **Data Parsing Accuracy**: Ensures that the parsing logic correctly extracts and displays listing information.
+- **Filter Logic**: Verifies that the script correctly identifies and includes only the specified listings within the radius.
+
+### Features Not Tested
+- **Advanced User Interactions**: Testing the full spectrum of user interactions and edge cases in the swipe-up view.
